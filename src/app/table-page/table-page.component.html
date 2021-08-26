@@ -1,0 +1,61 @@
+<mat-card>
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+        <!-- Position Column -->
+        <ng-container matColumnDef="strategies">
+            <th mat-header-cell *matHeaderCellDef>Strategies </th>
+            <td mat-cell *matCellDef="let element"> {{element.strategies}} </td>
+        </ng-container>
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="period">
+            <th mat-header-cell *matHeaderCellDef> Period </th>
+            <td mat-cell *matCellDef="let element"> {{element.period}} </td>
+        </ng-container>
+
+        <!-- Weight Column -->
+        <ng-container matColumnDef="price">
+            <th mat-header-cell *matHeaderCellDef> Price </th>
+            <td mat-cell *matCellDef="let element"> {{element.price}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="count">
+            <th mat-header-cell *matHeaderCellDef> Count </th>
+            <td mat-cell *matCellDef="let element"> {{element.count}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="geographies">
+            <th mat-header-cell *matHeaderCellDef> Geographies </th>
+            <td mat-cell *matCellDef="let element"> {{element.geographies}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="fundSizes">
+            <th mat-header-cell *matHeaderCellDef> FundSizes </th>
+            <td mat-cell *matCellDef="let element"> {{element.fundSizes}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="ratings">
+            <th mat-header-cell *matHeaderCellDef> Ratings </th>
+            <td mat-cell *matCellDef="let element"> {{element.ratings}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="vintage">
+            <th mat-header-cell *matHeaderCellDef> Vintage </th>
+            <td mat-cell *matCellDef="let element"> {{element.vintage}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="timePeriod">
+            <th mat-header-cell *matHeaderCellDef> TimePeriod </th>
+            <td mat-cell *matCellDef="let element"> {{element.timePeriod ? element.timePeriod : '--'}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+</mat-card>

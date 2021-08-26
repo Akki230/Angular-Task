@@ -1,0 +1,22 @@
+{
+  "data": [
+    {"strategies": "Infrastructure", "period": "Report Date", "price": 97.08, "count": 6, "geographies": "North America", "fundSizes": "5000mm+", "ratings": "Excellent", "vintage": ">2018", "timePeriod": ""},
+    {"strategies": "Infrastructure", "period": "1 year prior", "price": 88.8, "count": 55, "geographies": "Emerging Markets", "fundSizes": "250mm - <500mm", "ratings": "Excellent", "vintage": ">2018", "timePeriod": ""},
+    {"strategies": "Infrastructure", "period": "2 years prior", "price": 99.65, "count": 26, "geographies": "Global",  "fundSizes": "1000mm - < 2000mm", "ratings": "Unrated", "vintage": "<2011", "timePeriod": ""},
+    {"strategies": "Infrastructure", "period": "3 years prior", "price": 89.3, "count": 10, "geographies": "USA", "fundSizes": "500mm - <1000mm", "ratings": "Good", "vintage": "2011-2015", "timePeriod": ""},
+    {"strategies": "Infrastructure", "period": "4 years prior", "price": 96.96, "count": 51, "geographies": "Western Europe", "fundSizes": "250mm - <500mm", "ratings": "Very Good", "vintage": "2015-2018", "timePeriod": ""},
+    {"strategies": "Infrastructure", "period": "5 years prior", "price": 97.27, "count": 11, "geographies": "Asia", "fundSizes": "0 - <250mm", "ratings": "Excellent", "vintage": ">2018", "timePeriod": ""},
+    {"strategies": "Real Estate", "period": "Report Date", "price": 89.85, "count": 10, "geographies": "North America", "fundSizes": "5000mm+", "ratings": "Excellent", "vintage": ">2018", "timePeriod": ""},
+    {"strategies": "Real Estate", "period": "1 year prior", "price": 80.69, "count": 8, "geographies": "Emerging Markets", "fundSizes": "250mm - <500mm", "ratings": "Excellent", "vintage": ">2018", "timePeriod": ""},
+    {"strategies": "Real Estate", "period": "2 years prior", "price": 95.29, "count": 7, "geographies": "Global", "fundSizes": "1000mm - < 2000mm", "ratings": "Unrated", "vintage": "<2011", "timePeriod": ""},
+    {"strategies": "Real Estate", "period": "3 years prior", "price": 90.72, "count": 16, "geographies": "Asia", "fundSizes": "500mm - <1000mm", "ratings": "Good", "vintage": "2011-2015", "timePeriod": ""},
+    {"strategies": "Real Estate", "period": "4 years prior", "price": 86.77, "count": 13, "geographies": "Western Europe", "fundSizes": "250mm - <500mm", "ratings": "Very Good", "vintage": "2015-2018", "timePeriod": ""},
+    {"strategies": "Real Estate", "period": "5 years prior", "price": 92.34, "count": 25, "geographies": "USA", "fundSizes": "0 - <250mm", "ratings": "Excellent", "vintage": ">2018", "timePeriod": ""},
+    {"strategies": "LBO", "period": "Report Date", "price": 98.51, "count": 61, "geographies": "North America", "fundSizes": "5000mm+", "ratings": "Excellent", "vintage": ">2018", "timePeriod": ""},
+    {"strategies": "LBO", "period": "1 year prior", "price": 91.85, "count": 273, "geographies": "Emerging Markets", "fundSizes": "250mm - <500mm", "ratings": "Excellent", "vintage": ">2018", "timePeriod": ""},
+    {"strategies": "LBO", "period": "2 years prior", "price": 100.17, "count": 192, "geographies": "Global", "fundSizes": "1000mm - < 2000mm", "ratings": "Unrated", "vintage": "<2011", "timePeriod": ""},
+    {"strategies": "LBO", "period": "3 years prior", "price": 101.85, "count": 290, "geographies": "Asia", "fundSizes": "500mm - <1000mm", "ratings": "Good", "vintage": "2011-2015", "timePeriod": ""},
+    {"strategies": "LBO", "period": "4 years prior", "price": 97.83, "count": 158, "geographies": "Western Europe", "fundSizes": "250mm - <500mm", "ratings": "Very Good", "vintage": "2015-2018", "timePeriod": ""},
+    {"strategies": "LBO", "period": "5 years prior", "price": 97.32, "count": 59, "geographies": "USA", "fundSizes": "0 - <250mm", "ratings": "Excellent", "vintage": ">2018", "timePeriod": ""}
+  ]
+}
